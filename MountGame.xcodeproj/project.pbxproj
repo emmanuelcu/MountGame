@@ -16,6 +16,8 @@
 		2A97F9471BE58EDC00703EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A97F9451BE58EDC00703EB7 /* LaunchScreen.storyboard */; };
 		2A97F9521BE58EDC00703EB7 /* MountGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F9511BE58EDC00703EB7 /* MountGameTests.m */; };
 		2A97F95D1BE58EDC00703EB7 /* MountGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F95C1BE58EDC00703EB7 /* MountGameUITests.m */; };
+		2A97F96C1BE58FCE00703EB7 /* MountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F96B1BE58FCE00703EB7 /* MountainPath.m */; settings = {ASSET_TAGS = (); }; };
+		2A97F96F1BE599F300703EB7 /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F96E1BE599F300703EB7 /* PathView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		2A97F9581BE58EDC00703EB7 /* MountGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MountGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A97F95C1BE58EDC00703EB7 /* MountGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MountGameUITests.m; sourceTree = "<group>"; };
 		2A97F95E1BE58EDC00703EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A97F96A1BE58FCE00703EB7 /* MountainPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountainPath.h; sourceTree = "<group>"; };
+		2A97F96B1BE58FCE00703EB7 /* MountainPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountainPath.m; sourceTree = "<group>"; };
+		2A97F96D1BE599F300703EB7 /* PathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
+		2A97F96E1BE599F300703EB7 /* PathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 				2A97F93A1BE58EDB00703EB7 /* ViewController.h */,
 				2A97F93B1BE58EDB00703EB7 /* ViewController.m */,
 				2A97F93D1BE58EDB00703EB7 /* Main.storyboard */,
+				2A97F96A1BE58FCE00703EB7 /* MountainPath.h */,
+				2A97F96B1BE58FCE00703EB7 /* MountainPath.m */,
+				2A97F96D1BE599F300703EB7 /* PathView.h */,
+				2A97F96E1BE599F300703EB7 /* PathView.m */,
 				2A97F9431BE58EDC00703EB7 /* Assets.xcassets */,
 				2A97F9451BE58EDC00703EB7 /* LaunchScreen.storyboard */,
 				2A97F9481BE58EDC00703EB7 /* Info.plist */,
@@ -275,6 +285,8 @@
 			files = (
 				2A97F93C1BE58EDB00703EB7 /* ViewController.m in Sources */,
 				2A97F9391BE58EDB00703EB7 /* AppDelegate.m in Sources */,
+				2A97F96C1BE58FCE00703EB7 /* MountainPath.m in Sources */,
+				2A97F96F1BE599F300703EB7 /* PathView.m in Sources */,
 				2A97F9361BE58EDB00703EB7 /* main.m in Sources */,
 				2A97F9421BE58EDC00703EB7 /* MountGame.xcdatamodeld in Sources */,
 			);
