@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A02904C1C334C8700089835 /* 141231Mt.fuji.Mitsutouge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A02904B1C334C8700089835 /* 141231Mt.fuji.Mitsutouge.jpg */; };
 		2A97F9361BE58EDB00703EB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F9351BE58EDB00703EB7 /* main.m */; };
 		2A97F9391BE58EDB00703EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F9381BE58EDB00703EB7 /* AppDelegate.m */; };
 		2A97F93C1BE58EDB00703EB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F93B1BE58EDB00703EB7 /* ViewController.m */; };
@@ -16,8 +17,8 @@
 		2A97F9471BE58EDC00703EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A97F9451BE58EDC00703EB7 /* LaunchScreen.storyboard */; };
 		2A97F9521BE58EDC00703EB7 /* MountGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F9511BE58EDC00703EB7 /* MountGameTests.m */; };
 		2A97F95D1BE58EDC00703EB7 /* MountGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F95C1BE58EDC00703EB7 /* MountGameUITests.m */; };
-		2A97F96C1BE58FCE00703EB7 /* MountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F96B1BE58FCE00703EB7 /* MountainPath.m */; settings = {ASSET_TAGS = (); }; };
-		2A97F96F1BE599F300703EB7 /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F96E1BE599F300703EB7 /* PathView.m */; settings = {ASSET_TAGS = (); }; };
+		2A97F96C1BE58FCE00703EB7 /* MountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F96B1BE58FCE00703EB7 /* MountainPath.m */; };
+		2A97F96F1BE599F300703EB7 /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97F96E1BE599F300703EB7 /* PathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A02904B1C334C8700089835 /* 141231Mt.fuji.Mitsutouge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 141231Mt.fuji.Mitsutouge.jpg; path = ../../../Downloads/141231Mt.fuji.Mitsutouge.jpg; sourceTree = "<group>"; };
 		2A97F9311BE58EDB00703EB7 /* MountGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MountGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A97F9351BE58EDB00703EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A97F9371BE58EDB00703EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,10 +116,10 @@
 				2A97F93A1BE58EDB00703EB7 /* ViewController.h */,
 				2A97F93B1BE58EDB00703EB7 /* ViewController.m */,
 				2A97F93D1BE58EDB00703EB7 /* Main.storyboard */,
-				2A97F96A1BE58FCE00703EB7 /* MountainPath.h */,
-				2A97F96B1BE58FCE00703EB7 /* MountainPath.m */,
 				2A97F96D1BE599F300703EB7 /* PathView.h */,
 				2A97F96E1BE599F300703EB7 /* PathView.m */,
+				2A97F96A1BE58FCE00703EB7 /* MountainPath.h */,
+				2A97F96B1BE58FCE00703EB7 /* MountainPath.m */,
 				2A97F9431BE58EDC00703EB7 /* Assets.xcassets */,
 				2A97F9451BE58EDC00703EB7 /* LaunchScreen.storyboard */,
 				2A97F9481BE58EDC00703EB7 /* Info.plist */,
@@ -130,6 +132,7 @@
 		2A97F9341BE58EDB00703EB7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2A02904B1C334C8700089835 /* 141231Mt.fuji.Mitsutouge.jpg */,
 				2A97F9351BE58EDB00703EB7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -256,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A02904C1C334C8700089835 /* 141231Mt.fuji.Mitsutouge.jpg in Resources */,
 				2A97F9471BE58EDC00703EB7 /* LaunchScreen.storyboard in Resources */,
 				2A97F9441BE58EDC00703EB7 /* Assets.xcassets in Resources */,
 				2A97F93F1BE58EDB00703EB7 /* Main.storyboard in Resources */,
@@ -514,6 +518,7 @@
 				2A97F9631BE58EDC00703EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A97F9641BE58EDC00703EB7 /* Build configuration list for PBXNativeTarget "MountGameTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				2A97F9661BE58EDC00703EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A97F9671BE58EDC00703EB7 /* Build configuration list for PBXNativeTarget "MountGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				2A97F9691BE58EDC00703EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -19,8 +19,23 @@
     self = [super initWithFrame:frame];
     if (self) {
         //initialization code
+        
+        [self setup];
     }
     return self;
+}
+
+-(id)initWithCoder:(NSCoder *)aDecoder{
+    
+    self = [super initWithCoder:aDecoder];
+    if (self){
+        [self setup];
+    }
+    return self;
+}
+
+-(void)setup{
+    self.backgroundColor = [UIColor clearColor];
 }
 
 // Only override drawRect: if you perform custom drawing.
